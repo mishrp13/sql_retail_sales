@@ -1,6 +1,6 @@
 ----SQL RETAILS SALES ANALYSIS -P1
 
-create table retail_sales(
+create table sales_1(
 transactions_id	 int primary key,
 sale_date	date,
 sale_time	time,
@@ -8,7 +8,7 @@ customer_id	int,
 gender	varchar(15),
 age	 int,
 category varchar(15),	
-quantiy	int,
+quantity	int,
 price_per_unit	float,
 cogs	float,
 total_sale float
